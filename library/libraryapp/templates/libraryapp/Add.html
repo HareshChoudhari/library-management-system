@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+</head>
+<body>
+    <h1>Add Book Information</h1>
+    <form action ='/Add/ ' method="POST" > {%csrf_token%}
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder='Haresh'><br><br>
+
+        <label for="isuued_date">isuued_date:</label>
+        <input type="text" name="isuued_date" placeholder='YYYY-MM-DD'><br><br>
+
+        <label for="submitted_date">submitted_date:</label>
+        <input type="text" name="submitted_date" placeholder='YYYY-MM-DD'><br><br>
+
+        <button type="submit" name="submit">SAVE</button>
+        </form>
+             
+
+    
+
+
+</body>
+</html>

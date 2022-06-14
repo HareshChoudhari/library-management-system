@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+</head>
+<body>
+    <h1>Update Book Information</h1>
+    <form<form action ='/update/' method="POST" > {% csrf_token %}
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder={{s1.name}}><br/><br>
+
+        <label for="isuued_date">isuued date:</label>
+        <input type="text" name="isuued_date" placeholder={{s1.isuued_date}}><br/><br>
+
+        <label for="submitted_date">Submitted date:</label>
+        <input type="text" name="submitted_date" placeholder={{s1.submitted_date}}><br/><br>
+
+        <button type="submit" name="UPDATE">UPDATE</button><br/> <br>  
+
+        <button type="submit" nameD="delete">DELETE</button>
+
+    <script src="" async defer> </script>
+
+</body>
+</html>
